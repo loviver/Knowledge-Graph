@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "VoaloApp en El Salvador",
+      "label": "VoaloApp en El Salvador"
+    },
+    {
+      "id": "Implementaci\u00f3n de VoaloApp en El Salvador",
+      "label": "Implementaci\u00f3n de VoaloApp en El Salvador"
+    },
+    {
+      "id": "Adaptaci\u00f3n a la infraestructura de telecomunicaciones existente",
+      "label": "Adaptaci\u00f3n a la infraestructura de telecomunicaciones existente"
+    },
+    {
+      "id": "Cumplimiento de regulaciones locales",
+      "label": "Cumplimiento de regulaciones locales"
+    },
+    {
+      "id": "Escalabilidad para la demanda salvadore\u00f1a",
+      "label": "Escalabilidad para la demanda salvadore\u00f1a"
+    },
+    {
+      "id": "Infraestructura Tecnol\u00f3gica Requerida",
+      "label": "Infraestructura Tecnol\u00f3gica Requerida"
+    },
+    {
+      "id": "Servidores y almacenamiento de datos",
+      "label": "Servidores y almacenamiento de datos"
+    },
+    {
+      "id": "Conectividad a internet confiable",
+      "label": "Conectividad a internet confiable"
+    },
+    {
+      "id": "Seguridad de la informaci\u00f3n",
+      "label": "Seguridad de la informaci\u00f3n"
+    },
+    {
+      "id": "Impacto Econ\u00f3mico y Social",
+      "label": "Impacto Econ\u00f3mico y Social"
+    },
+    {
+      "id": "Generaci\u00f3n de empleo en el sector tecnol\u00f3gico",
+      "label": "Generaci\u00f3n de empleo en el sector tecnol\u00f3gico"
+    },
+    {
+      "id": "Mejora de la eficiencia en servicios",
+      "label": "Mejora de la eficiencia en servicios"
+    },
+    {
+      "id": "Inclusi\u00f3n digital de la poblaci\u00f3n salvadore\u00f1a",
+      "label": "Inclusi\u00f3n digital de la poblaci\u00f3n salvadore\u00f1a"
+    },
+    {
+      "id": "Desaf\u00edos y Oportunidades",
+      "label": "Desaf\u00edos y Oportunidades"
+    },
+    {
+      "id": "Brecha digital en zonas rurales",
+      "label": "Brecha digital en zonas rurales"
+    },
+    {
+      "id": "Competencia con otras plataformas",
+      "label": "Competencia con otras plataformas"
+    },
+    {
+      "id": "Colaboraci\u00f3n con empresas locales",
+      "label": "Colaboraci\u00f3n con empresas locales"
+    }
+  ],
+  "edges": [
+    {
+      "source": "VoaloApp en El Salvador",
+      "target": "Implementaci\u00f3n de VoaloApp en El Salvador"
+    },
+    {
+      "source": "VoaloApp en El Salvador",
+      "target": "Infraestructura Tecnol\u00f3gica Requerida"
+    },
+    {
+      "source": "VoaloApp en El Salvador",
+      "target": "Impacto Econ\u00f3mico y Social"
+    },
+    {
+      "source": "VoaloApp en El Salvador",
+      "target": "Desaf\u00edos y Oportunidades"
+    },
+    {
+      "source": "Implementaci\u00f3n de VoaloApp en El Salvador",
+      "target": "Adaptaci\u00f3n a la infraestructura de telecomunicaciones existente"
+    },
+    {
+      "source": "Implementaci\u00f3n de VoaloApp en El Salvador",
+      "target": "Cumplimiento de regulaciones locales"
+    },
+    {
+      "source": "Implementaci\u00f3n de VoaloApp en El Salvador",
+      "target": "Escalabilidad para la demanda salvadore\u00f1a"
+    },
+    {
+      "source": "Infraestructura Tecnol\u00f3gica Requerida",
+      "target": "Servidores y almacenamiento de datos"
+    },
+    {
+      "source": "Infraestructura Tecnol\u00f3gica Requerida",
+      "target": "Conectividad a internet confiable"
+    },
+    {
+      "source": "Infraestructura Tecnol\u00f3gica Requerida",
+      "target": "Seguridad de la informaci\u00f3n"
+    },
+    {
+      "source": "Impacto Econ\u00f3mico y Social",
+      "target": "Generaci\u00f3n de empleo en el sector tecnol\u00f3gico"
+    },
+    {
+      "source": "Impacto Econ\u00f3mico y Social",
+      "target": "Mejora de la eficiencia en servicios"
+    },
+    {
+      "source": "Impacto Econ\u00f3mico y Social",
+      "target": "Inclusi\u00f3n digital de la poblaci\u00f3n salvadore\u00f1a"
+    },
+    {
+      "source": "Desaf\u00edos y Oportunidades",
+      "target": "Brecha digital en zonas rurales"
+    },
+    {
+      "source": "Desaf\u00edos y Oportunidades",
+      "target": "Competencia con otras plataformas"
+    },
+    {
+      "source": "Desaf\u00edos y Oportunidades",
+      "target": "Colaboraci\u00f3n con empresas locales"
+    }
+  ]
+}
