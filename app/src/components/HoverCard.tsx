@@ -10,7 +10,7 @@ export function HoverCard({ hoveredNode, connectedTopics }: HoverCardProps) {
     <div style={{
       position: 'fixed',
       top: '1rem',
-      left: '1rem',
+      left: '13rem',
       width: '18rem',
       backgroundColor: 'white',
       borderRadius: '0.5rem',

@@ -1,0 +1,38 @@
+{
+    "Política Interior": [
+        "Cambios en la política migratoria",
+        "Nombramientos judiciales conservadores",
+        "Política económica (impuestos, aranceles, regulaciones)",
+        "Impacto en programas sociales (seguridad social, Medicare)",
+        "Polarización política y discursos divisivos"
+    ],
+    "Política Exterior": [
+        "Relaciones con aliados tradicionales (OTAN, UE)",
+        "Relaciones con adversarios (China, Rusia, Irán)",
+        "Acuerdos comerciales internacionales",
+        "Política militar y despliegues",
+        "Impacto en la diplomacia global"
+    ],
+    "Instituciones Democráticas": [
+        "Integridad electoral y procesos democráticos",
+        "Independencia del poder judicial",
+        "Libertad de prensa y expresión",
+        "Estado de derecho"
+    ],
+    "Economía": [
+        "Inflación y tasas de interés",
+        "Creación de empleo y desempleo",
+        "Deuda nacional y déficit presupuestario",
+        "Mercados financieros"
+    ],
+    "Cultura y Sociedad": [
+        "Derechos civiles y libertades individuales",
+        "Debate sobre temas sociales (aborto, matrimonio igualitario)",
+        "Libertad religiosa"
+    ],
+    "Medio Ambiente": [
+        "Política climática y energética",
+        "Regulaciones ambientales",
+        "Desarrollo de energías renovables"
+    ]
+}

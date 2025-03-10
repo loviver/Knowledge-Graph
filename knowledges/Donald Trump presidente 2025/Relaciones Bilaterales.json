@@ -1,0 +1,38 @@
+{
+    "Estados Unidos - China": [
+        "Guerra comercial",
+        "Taiwán",
+        "Derechos Humanos",
+        "Tecnología"
+    ],
+    "Estados Unidos - Rusia": [
+        "Control de armas",
+        "Ucrania",
+        "Interferencia electoral",
+        "Sanciones"
+    ],
+    "Estados Unidos - Europa": [
+        "OTAN",
+        "Comercio",
+        "Acuerdo nuclear con Irán",
+        "Política climática"
+    ],
+    "Estados Unidos - Oriente Medio": [
+        "Israel",
+        "Irán",
+        "Acuerdos de Abraham",
+        "Terrorismo"
+    ],
+    "Estados Unidos - América Latina": [
+        "Inmigración",
+        "Comercio",
+        "Narcotráfico",
+        "Venezuela"
+    ],
+    "Estados Unidos - Corea del Norte": [
+        "Programa nuclear",
+        "Sanciones",
+        "Desnuclearización",
+        "Diálogo"
+    ]
+}

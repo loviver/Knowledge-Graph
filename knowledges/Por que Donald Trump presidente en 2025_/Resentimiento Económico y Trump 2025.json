@@ -1,0 +1,20 @@
+{
+    "Resentimiento Económico -> Trump 2025": [
+        "Declive Económico Personal: Sentimiento de empeoramiento en la situación financiera individual y familiar.",
+        "Desigualdad Económica: Percepción de que la brecha entre ricos y pobres se amplía injustamente.",
+        "Pérdida de Empleos y Desindustrialización: Temor a la pérdida de empleos en sectores tradicionales y la falta de oportunidades.",
+        "Estancamiento Salarial: Frustración por la falta de aumento salarial a pesar del aumento del costo de vida.",
+        "Globalización y Libre Comercio: Creencia de que las políticas de libre comercio perjudican a los trabajadores estadounidenses.",
+        "Falta de Confianza en las Instituciones: Desconfianza en el gobierno, las corporaciones y los medios de comunicación para abordar los problemas económicos.",
+        "Promesas de Campaña: Atracción hacia las promesas de Trump de restaurar empleos, proteger la industria nacional y mejorar la economía para todos.",
+        "Nacionalismo Económico: Apoyo a políticas proteccionistas y de 'America First' para priorizar los intereses económicos de los estadounidenses.",
+        "Identificación con el discurso populista: Resonancia con el discurso de Trump que culpa a las élites y a los extranjeros por los problemas económicos."
+    ],
+    "Trump 2025 -> Resentimiento Económico": [
+        "Profundización de Divisiones Económicas: Políticas que podrían exacerbar la desigualdad y el descontento económico.",
+        "Políticas Proteccionistas: Posibles efectos negativos en el comercio y la economía global que podrían afectar a ciertos sectores.",
+        "Cambios en Políticas Fiscales: Impacto en los impuestos y la distribución de la riqueza.",
+        "Regulación: Impacto potencial en la creación de empleos y el crecimiento económico.",
+        "Retórica: Posible intensificación del discurso populista y la polarización social a través de la capitalización del resentimiento económico."
+    ]
+}

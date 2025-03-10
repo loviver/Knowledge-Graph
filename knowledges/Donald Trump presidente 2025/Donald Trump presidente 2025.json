@@ -1,0 +1,54 @@
+{
+    "Política Exterior": [
+        "Relaciones con China",
+        "Guerra en Ucrania",
+        "OTAN",
+        "Acuerdos Comerciales",
+        "Política Migratoria"
+    ],
+    "Política Interna": [
+        "Economía y Empleo",
+        "Aborto",
+        "Control de Armas",
+        "Inmigración",
+        "Elecciones y Democracia",
+        "Cultura y Educación"
+    ],
+    "Aspectos Legales": [
+        "Posibles Juicios y Acusaciones",
+        "Investigaciones",
+        "Poder Ejecutivo y la Ley"
+    ],
+    "Impacto Social": [
+        "Polarización Política",
+        "Protestas y Movimientos Sociales",
+        "Libertad de Expresión"
+    ],
+    "Partido Republicano": [
+        "División interna",
+        "Liderazgo",
+        "Estrategias Electorales"
+    ],
+    "Economía": [
+        "Impuestos",
+        "Inflación",
+        "Deuda Nacional",
+        "Política Energética"
+    ],
+    "Salud": [
+        "Cobertura Sanitaria",
+        "Ley de Cuidado de la Salud",
+        "Pandemias"
+    ],
+    "Elecciones 2024": [
+        "Primarias Republicanas",
+        "Estrategias de Campaña",
+        "Resultados Electorales",
+        "Financiamiento de Campaña"
+    ],
+    "Seguridad Nacional": [
+        "Terrorismo",
+        "Ciberseguridad",
+        "Defensa Nacional"
+    ]
+}

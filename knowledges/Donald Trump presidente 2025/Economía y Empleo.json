@@ -1,0 +1,32 @@
+{
+    "Política Fiscal": [
+        "Recortes de impuestos (posiblemente permanentes los de 2017)",
+        "Desregulación para estimular la inversión",
+        "Reducción del gasto público (excepto en defensa)"
+    ],
+    "Comercio": [
+        "Imposición de aranceles (especialmente a China)",
+        "Renegociación de acuerdos comerciales (T-MEC, etc.)",
+        "Énfasis en el proteccionismo para beneficiar a las industrias nacionales"
+    ],
+    "Inmigración": [
+        "Restricción de la inmigración (impacto potencial en la oferta laboral)",
+        "Priorización de trabajadores con habilidades específicas",
+        "Deportaciones"
+    ],
+    "Energía": [
+        "Promoción de la producción de combustibles fósiles (petróleo, gas, carbón)",
+        "Desregulación ambiental",
+        "Potencial impacto en la creación de empleos en el sector energético y en industrias relacionadas"
+    ],
+    "Manufactura": [
+        "Incentivos para la relocalización de empresas manufactureras en EE.UU.",
+        "Políticas para fortalecer la industria nacional",
+        "Potencial creación de empleos en el sector manufacturero"
+    ],
+    "Desregulación": [
+        "Eliminación de regulaciones consideradas onerosas para las empresas",
+        "Potencial impacto en el crecimiento económico y la creación de empleo",
+        "Implicaciones en la seguridad laboral y protección del medio ambiente"
+    ]
+}
