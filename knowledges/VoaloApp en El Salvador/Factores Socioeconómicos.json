@@ -1,0 +1,38 @@
+{
+    "Acceso a la Tecnología": [
+        "Penetración de Internet",
+        "Disponibilidad de Dispositivos Inteligentes (smartphones)",
+        "Costo de Datos Móviles y Banda Ancha",
+        "Brecha Digital (urbano vs rural)"
+    ],
+    "Nivel Socioeconómico": [
+        "Ingreso Per Cápita",
+        "Tasa de Pobreza",
+        "Distribución de la Riqueza",
+        "Acceso a Educación (relacionado con habilidades digitales)"
+    ],
+    "Infraestructura de Telecomunicaciones": [
+        "Cobertura de Redes Móviles (4G, 5G)",
+        "Disponibilidad de Fibra Óptica",
+        "Inversión en Infraestructura por parte del gobierno y empresas privadas",
+        "Calidad y Estabilidad de la Conexión"
+    ],
+    "Políticas Gubernamentales": [
+        "Regulación del Sector de Telecomunicaciones",
+        "Incentivos para la Inversión en Tecnología",
+        "Programas de Alfabetización Digital",
+        "Fomento del Emprendimiento Tecnológico"
+    ],
+    "Entorno Empresarial": [
+        "Disponibilidad de Capital de Riesgo",
+        "Apoyo a Startups Tecnológicas",
+        "Competencia en el Mercado de Aplicaciones",
+        "Adopción de Tecnología por parte de las Empresas Salvadoreñas"
+    ],
+    "Educación y Habilidades Digitales": [
+        "Nivel de Alfabetización Digital de la Población",
+        "Programas de Capacitación en Habilidades Tecnológicas",
+        "Currículo Educativo Enfocado en la Tecnología",
+        "Disponibilidad de Talento Humano Calificado"
+    ]
+}

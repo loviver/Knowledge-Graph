@@ -1,0 +1,31 @@
+{
+    "Inteligencia Artificial": [
+        "Aprendizaje Automático",
+        "Redes Neuronales",
+        "Deep Learning",
+        "Representación del Conocimiento",
+        "Razonamiento"
+    ],
+    "Procesamiento del Lenguaje Natural (NLP)": [
+        "Comprensión del Lenguaje Natural (NLU)",
+        "Generación del Lenguaje Natural (NLG)",
+        "Análisis de Sentimiento",
+        "Traducción Automática",
+        "Reconocimiento de Entidades Nombradas (NER)",
+        "Modelado del Lenguaje",
+        "Chatbots",
+        "Asistentes Virtuales",
+        "Extracción de Información",
+        "Análisis Sintáctico",
+        "Análisis Semántico"
+    ],
+    "Aplicaciones del NLP": [
+        "Análisis de Redes Sociales",
+        "Atención al Cliente",
+        "Marketing",
+        "Investigación Académica",
+        "Medicina",
+        "Finanzas",
+        "Recursos Humanos"
+    ]
+}

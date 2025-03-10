@@ -1,0 +1,32 @@
+{
+    "Bucle de Eventos (Event Loop)": [
+        "Monohilo",
+        "Callbacks",
+        "Promesas/Async-Await",
+        "Timers"
+    ],
+    "I/O No Bloqueante": [
+        "Lectura/Escritura de Archivos Asíncrona",
+        "Operaciones de Red Asíncronas",
+        "Bases de Datos No Bloqueantes (ej. MongoDB)"
+    ],
+    "Manejo de Concurrencia": [
+        "Clustering",
+        "Procesos Hijos (Child Processes)",
+        "Threads de Trabajador (Worker Threads)"
+    ],
+    "Arquitectura Orientada a Eventos": [
+        "Patrones de Diseño (Observer, Publisher/Subscriber)",
+        "Módulos de Eventos (EventEmitter)"
+    ],
+    "Beneficios": [
+        "Escalabilidad",
+        "Rendimiento",
+        "Eficiencia en Recursos"
+    ],
+    "Desafíos": [
+        "Complejidad en el manejo de callbacks",
+        "Depuración y manejo de errores asíncronos",
+        "Gestión de la concurrencia"
+    ]
+}

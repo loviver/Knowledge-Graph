@@ -1,0 +1,35 @@
+{
+    "Frameworks Node.js": [
+        "Express.js (Popular para aplicaciones web)",
+        "NestJS (Arquitectura escalable y mantenible)",
+        "Koa.js (Minimalista y personalizable)",
+        "Hapi.js (Enfoque en configuración y plugins)"
+    ],
+    "Librerías Node.js": [
+        "NPM (Gestor de paquetes)",
+        "lodash (Utilidades de manipulación de datos)",
+        "async (Control de flujo asíncrono)",
+        "request/axios (Peticiones HTTP)",
+        "mongoose/sequelize (ORM para bases de datos)"
+    ],
+    "Comunidad Node.js": [
+        "Colaboración Open Source",
+        "Eventos y conferencias (NodeConf, Node Summit)",
+        "Contribuciones a NPM",
+        "Documentación y tutoriales"
+    ],
+    "Ecosistema Node.js": [
+        "Desarrollo full-stack con JavaScript",
+        "Microservicios",
+        "API RESTful",
+        "Aplicaciones en tiempo real (Sockets)",
+        "Herramientas de build y despliegue (Webpack, Docker)",
+        "Testing (Jest, Mocha, Chai)"
+    ],
+    "Impacto de la creación de Node.js": [
+        "Democratización del desarrollo backend con JavaScript",
+        "Mayor productividad y reutilización de código",
+        "Crecimiento exponencial del ecosistema JavaScript",
+        "Adopción en grandes empresas y startups"
+    ]
+}

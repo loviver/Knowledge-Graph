@@ -1,0 +1,45 @@
+{
+    "Marketing Digital": [
+        "Redes Sociales (Facebook, Instagram, etc.)",
+        "SEO (Optimización para motores de búsqueda)",
+        "Marketing de Contenidos (Blog, guías, etc.)",
+        "Publicidad Pagada (Google Ads, Facebook Ads)",
+        "Email Marketing"
+    ],
+    "Ventas Directas": [
+        "Venta Personalizada (Contacto directo con clientes potenciales)",
+        "Participación en Eventos y Ferias",
+        "Alianzas Estratégicas con empresas locales"
+    ],
+    "Puntos de Venta Físicos": [
+        "Colaboración con tiendas departamentales o minoristas",
+        "Establecimiento de showrooms o puntos de demostración"
+    ],
+    "Distribución a través de Socios": [
+        "Agentes de venta independientes",
+        "Distribuidores autorizados"
+    ],
+    "Canales Online": [
+        "Sitio Web Propio (con e-commerce)",
+        "Marketplaces (Ej: Encuentra24)",
+        "Aplicaciones móviles"
+    ],
+    "Relaciones Públicas": [
+        "Comunicados de prensa",
+        "Colaboraciones con influencers",
+        "Participación en eventos de la industria"
+    ],
+    "Atención al Cliente": [
+        "Chat en vivo en el sitio web",
+        "Soporte telefónico",
+        "Redes sociales (para consultas y soporte)"
+    ],
+    "Programas de Referido": [
+        "Incentivos para clientes existentes que recomienden Boxful"
+    ],
+    "Publicidad Tradicional": [
+        "Anuncios en radio",
+        "Anuncios en televisión",
+        "Vallas publicitarias"
+    ]
+}

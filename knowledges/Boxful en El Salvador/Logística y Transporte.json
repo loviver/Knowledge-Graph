@@ -1,0 +1,37 @@
+{
+    "Infraestructura Logística": [
+        "Estado de las carreteras y vías de acceso",
+        "Capacidad de los puertos y aeropuertos",
+        "Disponibilidad de almacenes y centros de distribución"
+    ],
+    "Transporte de Mercancías": [
+        "Flotas de camiones y vehículos de reparto",
+        "Servicios de transporte terrestre, aéreo y marítimo",
+        "Costo del combustible y peajes"
+    ],
+    "Regulaciones y Aduanas": [
+        "Políticas de importación y exportación",
+        "Trámites aduaneros y aranceles",
+        "Cumplimiento de normativas de seguridad y transporte"
+    ],
+    "Tecnología y Digitalización": [
+        "Sistemas de gestión de transporte (TMS)",
+        "Plataformas de seguimiento de envíos",
+        "Optimización de rutas y logística"
+    ],
+    "Competencia y Mercado": [
+        "Actores principales del mercado logístico salvadoreño",
+        "Precios y tarifas de los servicios de transporte",
+        "Demanda de servicios logísticos para e-commerce y retail"
+    ],
+    "Impacto de Boxful": [
+        "Adaptación del modelo de Boxful al contexto salvadoreño",
+        "Integración con la infraestructura logística existente",
+        "Estrategias para superar los desafíos locales"
+    ],
+    "Última milla": [
+        "Desafíos de entrega en áreas urbanas y rurales",
+        "Optimización de rutas de entrega",
+        "Costos y eficiencia de la última milla"
+    ]
+}

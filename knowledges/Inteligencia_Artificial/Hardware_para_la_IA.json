@@ -1,0 +1,46 @@
+{
+    "Arquitecturas de Procesadores": [
+        "GPUs",
+        "TPUs",
+        "FPGAs",
+        "ASICs",
+        "CPUs"
+    ],
+    "Memorias y Almacenamiento": [
+        "HBM (High Bandwidth Memory)",
+        "NVMe SSDs",
+        "Memoria Persistente",
+        "DDR5"
+    ],
+    "Aceleración de Hardware": [
+        "Cuantización",
+        "Poda de Redes Neuronales",
+        "Compresión de Modelos"
+    ],
+    "Computación Neuromórfica": [
+        "Spiking Neural Networks",
+        "Memristores",
+        "Resistive RAM (ReRAM)"
+    ],
+    "Edge Computing": [
+        "Dispositivos IoT",
+        "Procesadores de Bajo Consumo",
+        "Hardware Optimizado para Edge AI"
+    ],
+    "Centros de Datos": [
+        "Infraestructura de Refrigeración",
+        "Interconexión de Alta Velocidad",
+        "Densidad de Potencia"
+    ],
+    "Software y Herramientas": [
+        "Compiladores para Hardware de IA",
+        "Bibliotecas de Optimización",
+        "Frameworks de Deep Learning"
+    ],
+    "Aplicaciones": [
+        "Visión Artificial",
+        "Procesamiento del Lenguaje Natural",
+        "Robótica",
+        "Vehículos Autónomos"
+    ]
+}

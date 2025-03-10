@@ -1,0 +1,51 @@
+{
+    "Nivel Socioeconómico": [
+        "Ingresos familiares",
+        "Nivel educativo",
+        "Ocupación",
+        "Acceso a servicios básicos (agua, luz, internet)",
+        "Tenencia de vivienda"
+    ],
+    "Ubicación Geográfica": [
+        "Área urbana vs. Área rural",
+        "Densidad poblacional",
+        "Acceso a transporte",
+        "Costo de vida en diferentes zonas"
+    ],
+    "Edad y Etapa de Vida": [
+        "Jóvenes profesionales",
+        "Familias jóvenes",
+        "Adultos mayores",
+        "Etapa de vida (soltero, casado, con hijos)"
+    ],
+    "Estilo de Vida y Hábitos de Consumo": [
+        "Preferencias de consumo",
+        "Actitud hacia la tecnología",
+        "Conciencia ambiental",
+        "Disponibilidad para el gasto en servicios como Boxful"
+    ],
+    "Acceso a Crédito y Financiación": [
+        "Capacidad de pago",
+        "Historial crediticio",
+        "Acceso a servicios bancarios"
+    ],
+    "Nivel de Educación y Alfabetización Digital": [
+        "Habilidad para utilizar plataformas online",
+        "Comprensión de los beneficios de un servicio como Boxful"
+    ],
+    "Tamaño y Composición del Hogar": [
+        "Número de miembros en la familia",
+        "Presencia de niños o adultos mayores",
+        "Espacio disponible en el hogar"
+    ],
+    "Actitudes hacia el Orden y la Organización": [
+        "Valoración del espacio físico",
+        "Deseo de simplificar la vida",
+        "Necesidad de almacenamiento adicional"
+    ],
+    "Conciencia de Marca y Marketing": [
+        "Familiaridad con Boxful",
+        "Percepción de la calidad y el valor del servicio",
+        "Influencia de la publicidad y el marketing"
+    ]
+}

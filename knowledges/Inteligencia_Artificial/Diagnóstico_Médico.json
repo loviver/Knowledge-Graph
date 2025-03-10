@@ -1,0 +1,45 @@
+{
+    "Procesamiento de Imágenes Médicas": [
+        "Segmentación de Imágenes",
+        "Realce de Imágenes",
+        "Reducción de Ruido",
+        "Análisis de Texturas"
+    ],
+    "Aprendizaje Profundo (Deep Learning)": [
+        "Redes Neuronales Convolucionales (CNNs)",
+        "Redes Neuronales Recurrentes (RNNs)",
+        "Redes Generativas Antagónicas (GANs)",
+        "Aprendizaje por Transferencia"
+    ],
+    "Aplicaciones Clínicas": [
+        "Detección de Anomalías (Cáncer, Hemorragias, etc.)",
+        "Diagnóstico Asistido",
+        "Planificación Quirúrgica",
+        "Monitoreo de Enfermedades"
+    ],
+    "Modalidades de Imagen": [
+        "Radiografías",
+        "Tomografías Computarizadas (TC)",
+        "Resonancia Magnética (RM)",
+        "Ultrasonido",
+        "Imágenes de Microscopía"
+    ],
+    "Análisis de Datos Médicos": [
+        "Big Data en Medicina",
+        "Anonimización de Datos",
+        "Privacidad del Paciente",
+        "Interpretación de Resultados"
+    ],
+    "Validación y Regulación": [
+        "Precisión y Exactitud",
+        "Sesgos en los Algoritmos",
+        "Cumplimiento Normativo (FDA, CE)",
+        "Ética en la IA"
+    ],
+    "Hardware y Software": [
+        "GPUs",
+        "TPUs",
+        "Frameworks de Deep Learning (TensorFlow, PyTorch)",
+        "Plataformas de Computación en la Nube"
+    ]
+}

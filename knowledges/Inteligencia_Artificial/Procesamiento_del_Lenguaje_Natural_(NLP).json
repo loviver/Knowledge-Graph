@@ -1,0 +1,27 @@
+{
+    "Inteligencia Artificial": [
+        "Aprendizaje Automático",
+        "Aprendizaje Profundo",
+        "Representación del Conocimiento",
+        "Razonamiento"
+    ],
+    "Procesamiento del Lenguaje Natural": [
+        "Análisis Sintáctico",
+        "Análisis Semántico",
+        "Generación de Texto",
+        "Comprensión del Lenguaje Natural",
+        "Traducción Automática"
+    ],
+    "Aprendizaje Automático en NLP": [
+        "Clasificación de Texto",
+        "Modelado de Temas",
+        "Reconocimiento de Entidades Nombradas",
+        "Análisis de Sentimientos"
+    ],
+    "Aplicaciones de NLP": [
+        "Chatbots",
+        "Asistentes Virtuales",
+        "Análisis de Redes Sociales",
+        "Motor de Búsqueda Semántico"
+    ]
+}

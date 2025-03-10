@@ -1,0 +1,48 @@
+{
+    "Documentación Oficial de Node.js": [
+        "Guías y tutoriales oficiales",
+        "Referencia de la API",
+        "Ejemplos de código"
+    ],
+    "Comunidad de Node.js": [
+        "Node.js Foundation",
+        "Foros de discusión",
+        "Grupos de usuarios (Meetups)",
+        "Canales de Slack/Discord",
+        "Contribuciones al código abierto"
+    ],
+    "Gestores de Paquetes (npm/Yarn/pnpm)": [
+        "Registro de paquetes",
+        "Instalación y gestión de dependencias",
+        "Publicación de paquetes"
+    ],
+    "Frameworks y Librerías Populares": [
+        "Express.js",
+        "NestJS",
+        "Koa.js",
+        "Hapi.js",
+        "Socket.io"
+    ],
+    "Cursos y Tutoriales Online": [
+        "Plataformas como Udemy, Coursera, edX",
+        "Tutoriales en YouTube",
+        "Blogs y artículos técnicos"
+    ],
+    "Libros sobre Node.js": [
+        "Libros para principiantes",
+        "Libros sobre arquitecturas y patrones",
+        "Libros sobre temas avanzados"
+    ],
+    "Herramientas de Desarrollo": [
+        "Editores de código (VS Code, Sublime Text)",
+        "Depuradores",
+        "Linters (ESLint)",
+        "Formatters (Prettier)"
+    ],
+    "Recursos para Contribuir al Ecosistema": [
+        "Participación en proyectos de código abierto",
+        "Creación de bibliotecas y módulos",
+        "Escritura de artículos y blogs",
+        "Organización de eventos y talleres"
+    ]
+}

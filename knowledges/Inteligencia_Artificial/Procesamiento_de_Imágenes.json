@@ -1,0 +1,23 @@
+{
+    "Inteligencia Artificial": [
+        "Aprendizaje Automático",
+        "Redes Neuronales",
+        "Deep Learning"
+    ],
+    "Visión Artificial": [
+        "Detección de Objetos",
+        "Segmentación de Imágenes",
+        "Reconocimiento Facial",
+        "Análisis de Escenas",
+        "Procesamiento de Video"
+    ],
+    "Aplicaciones": [
+        "Vehículos Autónomos",
+        "Robótica",
+        "Medicina",
+        "Vigilancia",
+        "Agricultura",
+        "Industria",
+        "Realidad Aumentada"
+    ]
+}

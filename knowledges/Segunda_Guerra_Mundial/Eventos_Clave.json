@@ -1,0 +1,48 @@
+{
+    "Causas de la Guerra": [
+        "Tratado de Versalles",
+        "Ascenso del Fascismo y Nazismo",
+        "Crisis Económica de 1929",
+        "Política de Apaciguamiento"
+    ],
+    "Frentes de Batalla": [
+        "Frente Europeo",
+        "Frente del Pacífico",
+        "Frente del Norte de África"
+    ],
+    "Avances Tecnológicos": [
+        "Desarrollo de la Bomba Atómica",
+        "Mejora de la Aviación",
+        "Desarrollo del Radar",
+        "Mejora de la Comunicación"
+    ],
+    "Conferencias Aliadas": [
+        "Conferencia de Yalta",
+        "Conferencia de Potsdam",
+        "Conferencia de Teherán"
+    ],
+    "Holocausto": [
+        "Antisemitismo",
+        "Guetos",
+        "Campos de Concentración",
+        "Solución Final"
+    ],
+    "Resistencia": [
+        "Movimientos de Resistencia en Europa",
+        "Espionaje",
+        "Sabotaje"
+    ],
+    "Consecuencias de la Guerra": [
+        "Creación de la ONU",
+        "Guerra Fría",
+        "Reconfiguración Política de Europa",
+        "Descolonización"
+    ],
+    "Personajes Clave": [
+        "Adolf Hitler",
+        "Winston Churchill",
+        "Franklin D. Roosevelt",
+        "Joseph Stalin",
+        "Hirohito"
+    ]
+}

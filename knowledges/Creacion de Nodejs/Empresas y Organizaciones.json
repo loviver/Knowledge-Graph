@@ -1,0 +1,31 @@
+{
+    "Adopción Empresarial": [
+        "Desarrollo de aplicaciones backend",
+        "Microservicios",
+        "Escalabilidad",
+        "API gateways",
+        "Herramientas de DevOps"
+    ],
+    "Comunidad Open Source": [
+        "Contribuidores al núcleo de Node.js",
+        "Mantenimiento de librerías y frameworks",
+        "Organización de eventos y conferencias",
+        "Foros de discusión y soporte"
+    ],
+    "Ecosistema de Módulos (npm)": [
+        "Desarrollo y publicación de módulos",
+        "Gestión de dependencias",
+        "Seguridad de paquetes",
+        "Herramientas de análisis y linting"
+    ],
+    "Organizaciones de Estandarización": [
+        "Node.js Foundation",
+        "JavaScript Standards Committee (TC39)",
+        "Colaboración en especificaciones y mejores prácticas"
+    ],
+    "Empresas Patrocinadoras": [
+        "Financiamiento del desarrollo de Node.js",
+        "Soporte técnico empresarial",
+        "Influencia en la dirección del proyecto"
+    ]
+}

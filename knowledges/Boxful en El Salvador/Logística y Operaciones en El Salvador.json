@@ -1,0 +1,44 @@
+{
+    "Logística de Almacenamiento": [
+        "Ubicación de bodegas estratégicas",
+        "Gestión de inventario",
+        "Seguridad y control de acceso"
+    ],
+    "Operaciones de Recolección y Entrega": [
+        "Rutas de transporte eficientes",
+        "Personal capacitado en manejo de objetos",
+        "Seguimiento y rastreo de envíos",
+        "Embalaje y protección de bienes"
+    ],
+    "Marketing y Ventas - Logística Inversa": [
+        "Proceso de devolución de objetos",
+        "Reacondicionamiento y reventa (si aplica)",
+        "Destrucción segura (si aplica)"
+    ],
+    "Marketing y Ventas - Experiencia del Cliente": [
+        "Comunicación transparente sobre la logística",
+        "Cumplimiento de plazos de entrega",
+        "Soporte al cliente para preguntas sobre la logística",
+        "Integración con la plataforma de marketing y ventas"
+    ],
+    "Tecnología y Sistemas": [
+        "Software de gestión de inventario",
+        "Plataforma de seguimiento de envíos",
+        "Optimización de rutas"
+    ],
+    "Regulaciones y Cumplimiento": [
+        "Normativas de almacenamiento",
+        "Regulaciones de transporte",
+        "Cumplimiento de leyes laborales"
+    ],
+    "Recursos Humanos": [
+        "Capacitación del personal de logística y operaciones",
+        "Gestión de personal de entrega",
+        "Salud y seguridad ocupacional"
+    ],
+    "Costos y Precios": [
+        "Costos de almacenamiento",
+        "Costos de transporte",
+        "Estrategia de precios para los servicios de logística"
+    ]
+}

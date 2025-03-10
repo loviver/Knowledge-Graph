@@ -1,0 +1,25 @@
+{
+    "Entorno de Ejecución Node.js": [
+        "Motor V8 de JavaScript",
+        "Event Loop",
+        "Módulos y NPM",
+        "Sistema de archivos",
+        "Red y HTTP",
+        "Procesos"
+    ],
+    "Creación de Aplicaciones Node.js": [
+        "Diseño de la arquitectura",
+        "Escritura de código JavaScript",
+        "Gestión de dependencias",
+        "Pruebas unitarias",
+        "Depuración",
+        "Despliegue"
+    ],
+    "Tipos de Aplicaciones Node.js": [
+        "APIs RESTful",
+        "Aplicaciones en tiempo real (WebSockets)",
+        "Aplicaciones de línea de comandos",
+        "Microservicios",
+        "Aplicaciones web server-side rendering"
+    ]
+}

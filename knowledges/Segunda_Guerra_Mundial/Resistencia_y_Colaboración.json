@@ -1,0 +1,30 @@
+{
+    "Ocupación Nazi": [
+        "Administración de territorios ocupados",
+        "Políticas de exterminio y persecución",
+        "Explotación económica"
+    ],
+    "Resistencia": [
+        "Resistencia armada",
+        "Resistencia pasiva",
+        "Inteligencia y espionaje",
+        "Sabotaje"
+    ],
+    "Colaboración": [
+        "Colaboración política",
+        "Colaboración militar",
+        "Colaboración económica",
+        "Delación"
+    ],
+    "Consecuencias": [
+        "Represalias y castigos",
+        "Juicios de posguerra",
+        "Memoria histórica y reconciliación"
+    ],
+    "Ideologías": [
+        "Fascismo",
+        "Nazismo",
+        "Comunismo",
+        "Liberalismo"
+    ]
+}

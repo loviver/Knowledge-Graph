@@ -1,0 +1,39 @@
+{
+    "Frente Oriental": [
+        "Batalla de Stalingrado",
+        "Batalla de Kursk",
+        "Operación Barbarroja",
+        "Asedio de Leningrado",
+        "Guerra germano-soviética"
+    ],
+    "Frente Occidental": [
+        "Desembarco de Normandía",
+        "Batalla de las Ardenas",
+        "Liberación de Francia",
+        "Campaña de Italia",
+        "Batalla de Inglaterra"
+    ],
+    "Frente del Pacífico": [
+        "Ataque a Pearl Harbor",
+        "Batalla de Midway",
+        "Batalla de Guadalcanal",
+        "Campaña de Filipinas",
+        "Bombardeos atómicos de Hiroshima y Nagasaki"
+    ],
+    "Frente Africano y Mediterráneo": [
+        "Batalla de El Alamein",
+        "Invasión de Sicilia",
+        "Campaña del Norte de África",
+        "Batalla de Creta"
+    ],
+    "Guerra Submarina": [
+        "Batalla del Atlántico",
+        "U-boats",
+        "Convoyes"
+    ],
+    "Resistencia y Movimientos Partisanos": [
+        "Resistencia francesa",
+        "Partisanos yugoslavos",
+        "Alzamiento del Gueto de Varsovia"
+    ]
+}

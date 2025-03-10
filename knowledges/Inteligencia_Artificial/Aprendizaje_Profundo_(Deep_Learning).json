@@ -1,0 +1,64 @@
+{
+    "Inteligencia Artificial": [
+        "Aprendizaje Automático",
+        "Redes Neuronales",
+        "Procesamiento del Lenguaje Natural",
+        "Robótica"
+    ],
+    "Aprendizaje Automático": [
+        "Aprendizaje Supervisado",
+        "Aprendizaje No Supervisado",
+        "Aprendizaje por Refuerzo"
+    ],
+    "Redes Neuronales": [
+        "Redes Neuronales Convolucionales (CNN)",
+        "Redes Neuronales Recurrentes (RNN)",
+        "Redes Generativas Antagónicas (GAN)"
+    ],
+    "Visión Artificial": [
+        "Detección de Objetos",
+        "Segmentación de Imágenes",
+        "Reconocimiento Facial",
+        "Clasificación de Imágenes",
+        "Análisis de Video"
+    ],
+    "Aprendizaje Profundo": [
+        "CNNs para Visión",
+        "RNNs para Análisis de Video",
+        "Transfer Learning",
+        "Aumento de Datos",
+        "Regularización",
+        "Optimización",
+        "Arquitecturas de Redes Neuronales Profundas"
+    ],
+    "CNNs para Visión": [
+        "AlexNet",
+        "VGGNet",
+        "ResNet",
+        "Inception",
+        "MobileNet",
+        "EfficientNet"
+    ],
+    "Detección de Objetos": [
+        "YOLO",
+        "SSD",
+        "Faster R-CNN"
+    ],
+    "Segmentación de Imágenes": [
+        "Segmentación Semántica",
+        "Segmentación de Instancias",
+        "U-Net"
+    ],
+    "Aplicaciones de Visión Artificial": [
+        "Vehículos Autónomos",
+        "Diagnóstico Médico",
+        "Seguridad y Vigilancia",
+        "Realidad Aumentada",
+        "Control de Calidad Industrial"
+    ],
+    "Hardware para Aprendizaje Profundo": [
+        "GPUs",
+        "TPUs",
+        "ASICs"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "Comunidad NPM": [
+        "Desarrolladores de paquetes",
+        "Usuarios de paquetes",
+        "Colaboradores de código abierto",
+        "Mantenedores de paquetes",
+        "Foros de discusión y soporte"
+    ],
+    "Ecosistema NPM": [
+        "Repositorio central de paquetes",
+        "Herramientas de línea de comandos (CLI)",
+        "Dependencias y gestión de versiones",
+        "Scripts y automatización de tareas",
+        "Seguridad y auditoría de paquetes"
+    ],
+    "Creación de Node.js y NPM": [
+        "Facilitación de la reutilización de código",
+        "Aceleración del desarrollo de aplicaciones",
+        "Estandarización de módulos",
+        "Impulso a la adopción de JavaScript en el backend",
+        "Fomento de la colaboración y el crecimiento del ecosistema"
+    ],
+    "Paquetes NPM": [
+        "Librerías JavaScript",
+        "Frameworks (Express, React, Angular, Vue)",
+        "Herramientas de desarrollo (Webpack, Babel, ESLint)",
+        "Aplicaciones completas",
+        "Utilitarios de línea de comandos"
+    ],
+    "Gestión de Dependencias": [
+        "package.json",
+        "node_modules",
+        "semver (Semantic Versioning)",
+        "package-lock.json / yarn.lock",
+        "Transitive Dependencies"
+    ]
+}

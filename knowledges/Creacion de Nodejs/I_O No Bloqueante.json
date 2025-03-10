@@ -1,0 +1,17 @@
+{
+    "I/O No Bloqueante": [
+        "Event Loop",
+        "Callbacks/Promises/Async-Await",
+        "Manejo de Concurrencia"
+    ],
+    "Arquitectura No Bloqueante": [
+        "Single-Threaded Event Loop",
+        "Escalabilidad",
+        "Eficiencia"
+    ],
+    "Creación de Node.js": [
+        "Ryan Dahl",
+        "JavaScript del lado del servidor",
+        "V8 Engine"
+    ]
+}

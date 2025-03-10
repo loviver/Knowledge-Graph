@@ -1,0 +1,54 @@
+{
+    "Fascismo": [
+        "Benito Mussolini (Italia)",
+        "Adolf Hitler (Alemania)",
+        "Nacionalismo extremo",
+        "Militarismo",
+        "Anticomunismo",
+        "Totalitarismo"
+    ],
+    "Nazismo": [
+        "Adolf Hitler (Alemania)",
+        "Raza Aria",
+        "Antisemitismo",
+        "Expansionismo",
+        "Totalitarismo",
+        "Violación de derechos humanos"
+    ],
+    "Comunismo Estalinista": [
+        "Iósif Stalin (Unión Soviética)",
+        "Colectivización",
+        "Partido único",
+        "Represión política",
+        "Pactos con potencias (e.g., Pacto Ribbentrop-Mólotov)",
+        "Expansión territorial"
+    ],
+    "Imperialismo Japonés": [
+        "Emperador Hirohito",
+        "Expansionismo en Asia Oriental",
+        "Militarismo",
+        "Creencia en superioridad racial"
+    ],
+    "Democracias Liberales": [
+        "Reino Unido (Winston Churchill)",
+        "Estados Unidos (Franklin D. Roosevelt)",
+        "Francia (Charles de Gaulle)",
+        "Defensa de la libertad individual",
+        "Economía de mercado",
+        "Alianzas contra el Eje"
+    ],
+    "Causas de la guerra": [
+        "Tratado de Versalles",
+        "Crisis económica de 1929",
+        "Expansionismo de las potencias del Eje",
+        "Fracaso de la Sociedad de Naciones",
+        "Apcimiento (Appeasement)"
+    ],
+    "Consecuencias de la guerra": [
+        "Guerra Fría",
+        "División de Alemania",
+        "Creación de la ONU",
+        "Descolonización",
+        "Ascenso de EEUU y la URSS como superpotencias"
+    ]
+}

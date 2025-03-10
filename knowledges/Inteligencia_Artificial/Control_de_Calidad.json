@@ -1,0 +1,29 @@
+{
+    "Inteligencia Artificial": [
+        "Aprendizaje Automático",
+        "Redes Neuronales",
+        "Procesamiento del Lenguaje Natural"
+    ],
+    "Visión Artificial (Computer Vision)": [
+        "Reconocimiento de Objetos",
+        "Segmentación de Imágenes",
+        "Análisis de Movimiento",
+        "Detección de Anomalías"
+    ],
+    "Control de Calidad": [
+        "Inspección Automatizada",
+        "Medición de Defectos",
+        "Análisis Predictivo de Fallos",
+        "Optimización de Procesos de Producción"
+    ],
+    "Aprendizaje Automático en Control de Calidad": [
+        "Clasificación de Defectos",
+        "Regresión para Predicción de Calidad",
+        "Aprendizaje No Supervisado para Detección de Anomalías"
+    ],
+    "Redes Neuronales en Visión Artificial": [
+        "Redes Convolucionales (CNNs)",
+        "Redes Recurrentes (RNNs) para Video",
+        "Redes Generativas Antagónicas (GANs) para Aumento de Datos"
+    ]
+}

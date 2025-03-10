@@ -1,0 +1,36 @@
+{
+    "Inteligencia Artificial": [
+        "Aprendizaje Automático",
+        "Procesamiento del Lenguaje Natural (NLP)"
+    ],
+    "Aprendizaje Automático": [
+        "Modelos de Clasificación",
+        "Modelos de Regresión",
+        "Redes Neuronales",
+        "Aprendizaje Profundo",
+        "Ingeniería de Características"
+    ],
+    "Procesamiento del Lenguaje Natural (NLP)": [
+        "Análisis de Sentimientos",
+        "Traducción Automática",
+        "Generación de Texto",
+        "Reconocimiento de Entidades Nombradas (NER)",
+        "Análisis Sintáctico",
+        "Modelado de Temas"
+    ],
+    "Modelos de Clasificación en NLP": [
+        "Naive Bayes",
+        "Máquinas de Vectores de Soporte (SVM)",
+        "Regresión Logística",
+        "Árboles de Decisión",
+        "Random Forest"
+    ],
+    "Redes Neuronales en NLP": [
+        "Redes Neuronales Recurrentes (RNN)",
+        "Redes LSTM",
+        "Redes GRU",
+        "Transformadores (Transformers)",
+        "BERT",
+        "GPT"
+    ]
+}

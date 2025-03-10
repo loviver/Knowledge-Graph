@@ -1,0 +1,36 @@
+{
+    "Recaudación de Impuestos": [
+        "Impuesto sobre la Renta (ISR) de Boxful",
+        "Impuesto al Valor Agregado (IVA) generado por servicios de Boxful",
+        "Impuestos municipales (si aplica)",
+        "Cotizaciones a la seguridad social (IPSFA, ISSS) de los empleados de Boxful"
+    ],
+    "Generación de Empleo": [
+        "Impuestos derivados de los salarios de los empleados de Boxful",
+        "Impuestos indirectos generados por el consumo de los empleados de Boxful",
+        "Reducción del desempleo y su impacto fiscal (menos subsidios por desempleo)"
+    ],
+    "Inversión Extranjera Directa (IED)": [
+        "Impuestos pagados por la inversión inicial de Boxful en El Salvador",
+        "Impuestos generados por la repatriación de utilidades (si aplica)",
+        "Efecto multiplicador de la IED en la economía salvadoreña"
+    ],
+    "Desarrollo de Proveedores Locales": [
+        "Impuestos generados por las compras de Boxful a proveedores salvadoreños",
+        "Crecimiento económico de los proveedores locales gracias a Boxful",
+        "Fortalecimiento del tejido empresarial salvadoreño"
+    ],
+    "Impacto en el Comercio Exterior": [
+        "Impuestos generados por las importaciones/exportaciones de Boxful (si aplica)",
+        "Mejora de la balanza comercial (si aplica)",
+        "Posicionamiento de El Salvador como destino para inversiones logísticas"
+    ],
+    "Formalización de la Economía": [
+        "Impuestos adicionales recaudados por la formalización de negocios a través de Boxful",
+        "Reducción de la evasión fiscal al facilitar el cumplimiento tributario"
+    ],
+    "Eficiencia Logística": [
+        "Impacto económico de la mejora en la eficiencia logística para otros negocios en El Salvador (reducción de costos, mayor competitividad)",
+        "Impuestos derivados del crecimiento de otros negocios gracias a la eficiencia logística proporcionada por Boxful"
+    ]
+}

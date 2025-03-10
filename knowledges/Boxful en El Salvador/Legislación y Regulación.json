@@ -1,0 +1,44 @@
+{
+    "Protección al Consumidor": [
+        "Ley de Protección al Consumidor (El Salvador)",
+        "Publicidad engañosa o falsa",
+        "Derechos del consumidor en el comercio electrónico",
+        "Garantías y devoluciones",
+        "Mecanismos de resolución de conflictos"
+    ],
+    "Comercio Electrónico": [
+        "Ley de Firma Electrónica (El Salvador)",
+        "Protección de datos personales y privacidad online",
+        "Transacciones electrónicas y contratos digitales",
+        "Responsabilidad de los intermediarios de servicios online",
+        "Regulación de plataformas de comercio electrónico"
+    ],
+    "Publicidad y Marketing": [
+        "Regulación de la publicidad comparativa",
+        "Restricciones a la publicidad dirigida a menores",
+        "Publicidad de productos específicos (ej. alcohol, tabaco)",
+        "Normas sobre promociones y sorteos",
+        "Consentimiento para el marketing directo (email marketing, etc.)"
+    ],
+    "Competencia Desleal": [
+        "Ley de Competencia (El Salvador)",
+        "Prácticas comerciales desleales",
+        "Dumping y subsidios",
+        "Acuerdos colusorios",
+        "Abuso de posición dominante"
+    ],
+    "Impuestos": [
+        "IVA en ventas y servicios digitales",
+        "Impuesto sobre la Renta (ISR) para empresas",
+        "Obligaciones fiscales para plataformas de venta online",
+        "Retenciones y regímenes especiales",
+        "Facturación electrónica"
+    ],
+    "Propiedad Intelectual": [
+        "Derechos de autor y propiedad industrial",
+        "Protección de marcas y nombres comerciales",
+        "Patentes para invenciones",
+        "Lucha contra la piratería y la falsificación",
+        "Licencias y cesiones de derechos"
+    ]
+}

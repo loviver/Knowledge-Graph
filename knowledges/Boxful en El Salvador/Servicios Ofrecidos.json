@@ -1,0 +1,22 @@
+{
+    "Almacenamiento flexible": [
+        "Almacenamiento por cajas",
+        "Almacenamiento por artículos",
+        "Almacenamiento a corto y largo plazo"
+    ],
+    "Recogida y entrega a domicilio": [
+        "Programación de recogidas y entregas",
+        "Entrega en 24-48 horas",
+        "Seguimiento de envíos"
+    ],
+    "Gestión de inventario online": [
+        "Visualización del inventario",
+        "Solicitud de devolución de artículos",
+        "Organización de cajas y artículos"
+    ],
+    "Servicios adicionales": [
+        "Embalaje profesional",
+        "Donación de artículos",
+        "Destrucción de documentos confidenciales"
+    ]
+}

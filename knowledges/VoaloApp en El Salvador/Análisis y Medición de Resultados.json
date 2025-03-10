@@ -1,0 +1,37 @@
+{
+    "Definición de KPIs": [
+        "Establecimiento de métricas clave (KPIs) para VoaloApp",
+        "Seguimiento de conversiones (descargas, registros, uso de funcionalidades)",
+        "Análisis del Retorno de la Inversión (ROI) de las campañas de marketing"
+    ],
+    "Fuentes de Datos": [
+        "Google Analytics para el tráfico web y el comportamiento del usuario",
+        "Datos de la App Store y Google Play Store para descargas y valoraciones",
+        "Plataformas de publicidad (Facebook Ads, Google Ads) para rendimiento de anuncios"
+    ],
+    "Segmentación del Público Salvadoreño": [
+        "Análisis demográfico (edad, género, ubicación) de los usuarios de VoaloApp",
+        "Comportamiento online y preferencias del mercado salvadoreño",
+        "Identificación de nichos de mercado específicos"
+    ],
+    "Análisis de Campañas de Marketing Digital": [
+        "Medición del alcance, la frecuencia y el impacto de los anuncios",
+        "Análisis del Costo por Adquisición (CPA) y el Costo por Click (CPC)",
+        "Optimización de las campañas en función de los resultados"
+    ],
+    "Análisis de la Competencia": [
+        "Benchmarking de las estrategias de marketing de competidores en El Salvador",
+        "Identificación de oportunidades y amenazas en el mercado",
+        "Análisis de la cuota de mercado de VoaloApp"
+    ],
+    "Herramientas de Análisis de Datos": [
+        "Uso de herramientas de visualización de datos (Tableau, Power BI)",
+        "Análisis estadístico para identificar tendencias y patrones",
+        "Informes periódicos para la toma de decisiones estratégicas"
+    ],
+    "Optimización de la Experiencia del Usuario (UX)": [
+        "Análisis del comportamiento del usuario dentro de la app (tasa de rebote, tiempo de sesión)",
+        "Pruebas A/B para mejorar la usabilidad y la conversión",
+        "Recopilación de feedback de los usuarios a través de encuestas y reviews"
+    ]
+}

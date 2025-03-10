@@ -1,0 +1,33 @@
+{
+    "Impacto Económico": [
+        "Inversión Extranjera Directa",
+        "Remesas",
+        "Turismo",
+        "Estabilidad Financiera",
+        "Acceso a Crédito para PYMEs"
+    ],
+    "Confianza y Adopción Tecnológica": [
+        "Percepción del riesgo",
+        "Educación financiera digital",
+        "Infraestructura tecnológica",
+        "Regulación y cumplimiento"
+    ],
+    "Negocios Locales": [
+        "Aceptación del Bitcoin",
+        "Costos de transacción",
+        "Competencia con otras monedas",
+        "Adaptación a la nueva regulación"
+    ],
+    "Desarrollo Social": [
+        "Inclusión financiera",
+        "Reducción de la pobreza",
+        "Creación de empleo",
+        "Desigualdad económica"
+    ],
+    "Marco Legal y Regulatorio": [
+        "Seguridad jurídica",
+        "Lavado de dinero",
+        "Financiamiento del terrorismo",
+        "Cumplimiento normativo internacional"
+    ]
+}

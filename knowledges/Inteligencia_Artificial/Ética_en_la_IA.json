@@ -1,0 +1,50 @@
+{
+    "Privacidad y Protección de Datos": [
+        "Anonimización de datos",
+        "Consentimiento informado",
+        "Sesgos en los datos",
+        "Transparencia en el uso de datos"
+    ],
+    "Sesgos y Discriminación": [
+        "Sesgos algorítmicos",
+        "Equidad en el diseño de algoritmos",
+        "Representación justa de grupos minoritarios",
+        "Impacto social de la discriminación algorítmica"
+    ],
+    "Responsabilidad y Rendición de Cuentas": [
+        "Responsabilidad por decisiones de la IA",
+        "Transparencia algorítmica",
+        "Explicabilidad de la IA (XAI)",
+        "Auditoría de algoritmos"
+    ],
+    "Seguridad y Control": [
+        "Seguridad de la IA",
+        "Uso ético de la IA en defensa",
+        "Potencial de uso malicioso de la IA",
+        "Control humano sobre la IA"
+    ],
+    "Impacto en el Empleo": [
+        "Automatización y desplazamiento laboral",
+        "Necesidad de requalificación laboral",
+        "Creación de nuevos empleos",
+        "Impacto en la desigualdad económica"
+    ],
+    "Autonomía y Toma de Decisiones": [
+        "Grado de autonomía permitido a la IA",
+        "Consideraciones éticas en la toma de decisiones autónomas",
+        "Responsabilidad en decisiones autónomas",
+        "Impacto en la agencia humana"
+    ],
+    "Valores Humanos y Dignidad": [
+        "Protección de valores humanos",
+        "Impacto de la IA en la dignidad humana",
+        "Consideraciones éticas en la IA para la salud",
+        "IA para el bienestar social"
+    ],
+    "Transparencia y Explicabilidad": [
+        "Necesidad de comprender cómo funciona la IA",
+        "Métodos para hacer la IA más transparente",
+        "Importancia de la explicabilidad para la confianza",
+        "Limitaciones de la transparencia total"
+    ]
+}

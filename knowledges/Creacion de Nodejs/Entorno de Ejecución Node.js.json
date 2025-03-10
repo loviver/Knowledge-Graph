@@ -1,0 +1,22 @@
+{
+    "Entorno de Ejecución Node.js": [
+        "Arquitectura V8 de Google",
+        "Programación asíncrona y no bloqueante",
+        "Manejo de eventos (Event Loop)",
+        "Sistema de módulos (CommonJS)",
+        "npm (Node Package Manager)"
+    ],
+    "Creación de Node.js": [
+        "Desarrollo de aplicaciones web con Express.js",
+        "Construcción de APIs RESTful",
+        "Desarrollo de aplicaciones de línea de comandos (CLI)",
+        "Implementación de microservicios",
+        "Escritura de aplicaciones en tiempo real con WebSockets"
+    ],
+    "Relación con Entorno de Ejecución": [
+        "Node.js como entorno de ejecución para JavaScript del lado del servidor",
+        "Diferencias entre Node.js y los navegadores web",
+        "Capacidades de I/O no bloqueante que ofrece el entorno de ejecución",
+        "Impacto del entorno de ejecución en el rendimiento de las aplicaciones Node.js"
+    ]
+}

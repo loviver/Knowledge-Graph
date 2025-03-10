@@ -1,0 +1,38 @@
+{
+    "Impacto Económico": [
+        "Pérdida de inversión extranjera",
+        "Fluctuaciones en la economía local",
+        "Posible devaluación de activos en Bitcoin",
+        "Repercusiones en el turismo"
+    ],
+    "Impacto en la Confianza Ciudadana": [
+        "Aumento de la desconfianza en el gobierno",
+        "Polarización de la opinión pública",
+        "Protestas y manifestaciones",
+        "Percepción de inestabilidad política"
+    ],
+    "Impacto en la Inclusión Financiera": [
+        "Retroceso en la adopción de tecnologías financieras",
+        "Dificultad para acceder a remesas",
+        "Exclusión de la población no bancarizada",
+        "Impacto en la educación financiera digital"
+    ],
+    "Impacto Legal y Regulatorio": [
+        "Necesidad de adaptar la legislación financiera",
+        "Impacto en contratos y obligaciones denominadas en Bitcoin",
+        "Desafíos para la supervisión y control financiero",
+        "Posibles litigios y demandas"
+    ],
+    "Impacto en la Imagen Internacional": [
+        "Reputación del país en los mercados financieros",
+        "Relaciones con organismos internacionales (FMI, Banco Mundial)",
+        "Credibilidad ante inversores extranjeros",
+        "Percepción de riesgo país"
+    ],
+    "Impacto Social Directo": [
+        "Efectos en la economía familiar que invirtió en Bitcoin",
+        "Disminución en la aceptación de Bitcoin como moneda de curso legal",
+        "Impacto en el comercio local que aceptaba Bitcoin",
+        "Posible aumento de la pobreza"
+    ]
+}

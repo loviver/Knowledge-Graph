@@ -1,0 +1,68 @@
+{
+    "Aprendizaje Automático (Machine Learning)": [
+        "Clasificación",
+        "Regresión",
+        "Clustering",
+        "Aprendizaje Profundo (Deep Learning)",
+        "Procesamiento del Lenguaje Natural (NLP)"
+    ],
+    "Visión Artificial": [
+        "Reconocimiento de objetos",
+        "Análisis de imágenes",
+        "Segmentación de imágenes",
+        "Visión computacional"
+    ],
+    "Robótica": [
+        "Automatización industrial",
+        "Robots autónomos",
+        "Navegación robótica",
+        "Planificación de tareas"
+    ],
+    "Procesamiento del Lenguaje Natural (NLP)": [
+        "Traducción automática",
+        "Análisis de sentimientos",
+        "Chatbots",
+        "Asistentes virtuales"
+    ],
+    "Sistemas Expertos": [
+        "Diagnóstico médico",
+        "Asesoramiento financiero",
+        "Sistemas de recomendación",
+        "Toma de decisiones"
+    ],
+    "Juegos y Entretenimiento": [
+        "Agentes inteligentes en videojuegos",
+        "Generación de contenido",
+        "Experiencias inmersivas"
+    ],
+    "Salud": [
+        "Diagnóstico asistido por IA",
+        "Descubrimiento de fármacos",
+        "Medicina personalizada",
+        "Monitorización de pacientes"
+    ],
+    "Finanzas": [
+        "Detección de fraudes",
+        "Análisis de riesgos",
+        "Trading algorítmico",
+        "Asesoramiento financiero automatizado"
+    ],
+    "Transporte": [
+        "Vehículos autónomos",
+        "Optimización de rutas",
+        "Gestión del tráfico",
+        "Drones"
+    ],
+    "Educación": [
+        "Aprendizaje adaptativo",
+        "Tutores virtuales",
+        "Calificación automatizada",
+        "Creación de contenido educativo"
+    ],
+    "Manufactura": [
+        "Control de calidad",
+        "Mantenimiento predictivo",
+        "Optimización de procesos",
+        "Robótica industrial"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Arquitectura No Bloqueante": [
+        "Operaciones Asíncronas",
+        "Callbacks",
+        "Promesas",
+        "Async/Await",
+        "Manejo de Concurrencia"
+    ],
+    "Event Loop": [
+        "Cola de Eventos (Event Queue)",
+        "Llamadas al Sistema Operativo (System Calls)",
+        "Monohilo (Single-threaded)",
+        "Fases del Event Loop (Timers, Pending Callbacks, Idle/Prepare, Poll, Check, Close Callbacks)",
+        "Microtasks (Process.nextTick, Promises)"
+    ],
+    "Node.js": [
+        "JavaScript del lado del servidor",
+        "Entorno de Ejecución V8",
+        "Módulos y NPM (Node Package Manager)",
+        "Aplicaciones en tiempo real (Real-time Applications)",
+        "Escalabilidad"
+    ],
+    "Operaciones de I/O": [
+        "Lectura/Escritura de archivos",
+        "Peticiones de red (HTTP, TCP, UDP)",
+        "Acceso a bases de datos",
+        "Streams"
+    ],
+    "Callbacks Hell y Soluciones": [
+        "Anidamiento excesivo de callbacks",
+        "Dificultad para el manejo de errores",
+        "Promesas (Promises)",
+        "Async/Await"
+    ]
+}

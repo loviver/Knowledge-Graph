@@ -1,0 +1,37 @@
+{
+    "Arquitectura Orientada a Eventos (Event-Driven Architecture)": [
+        "Comunicación Asíncrona",
+        "Desacoplamiento de Servicios",
+        "Reactividad",
+        "Gestión de Colas de Mensajes (Message Queues)",
+        "Patrones de Diseño EDA"
+    ],
+    "Arquitectura No Bloqueante (Non-Blocking Architecture)": [
+        "Operaciones Asíncronas",
+        "Event Loop",
+        "Callbacks/Promises/Async-Await",
+        "Concurrencia",
+        "Escalabilidad"
+    ],
+    "Creación de Node.js": [
+        "Motor JavaScript V8",
+        "Entorno de Ejecución JavaScript del Lado del Servidor",
+        "npm (Node Package Manager)",
+        "Módulos No Bloqueantes",
+        "Modelo de E/S Basado en Eventos"
+    ],
+    "Node.js y Arquitectura Orientada a Eventos": [
+        "Implementación de Microservicios",
+        "Desarrollo de Aplicaciones en Tiempo Real",
+        "Gestión de Sockets Web",
+        "Integración con Sistemas de Mensajería",
+        "Construcción de APIs Reactivas"
+    ],
+    "Node.js y Arquitectura No Bloqueante": [
+        "Maximización del Rendimiento",
+        "Manejo de Alta Concurrencia",
+        "Reducción del Tiempo de Espera",
+        "Optimización del Uso de Recursos",
+        "Construcción de Aplicaciones Escalables"
+    ]
+}

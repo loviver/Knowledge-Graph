@@ -1,0 +1,32 @@
+{
+    "Disponibilidad de Internet": [
+        "Cobertura de redes móviles (4G/5G) en El Salvador",
+        "Acceso a internet fijo (fibra óptica, ADSL)",
+        "Puntos de acceso Wi-Fi públicos y privados"
+    ],
+    "Infraestructura de Servidores y Data Centers": [
+        "Capacidad y disponibilidad de data centers locales",
+        "Servicios de cloud computing (AWS, Azure, Google Cloud) presentes en la región",
+        "Escalabilidad de la infraestructura para soportar el crecimiento de VoaloApp"
+    ],
+    "Desarrollo de Software y Talento Humano": [
+        "Disponibilidad de desarrolladores de software en El Salvador",
+        "Conocimiento en desarrollo de aplicaciones móviles (iOS, Android)",
+        "Capacidad de desarrollo backend y APIs"
+    ],
+    "Seguridad Cibernética": [
+        "Protección contra ataques DDoS",
+        "Implementación de medidas de seguridad de datos (encriptación, autenticación)",
+        "Cumplimiento de regulaciones de privacidad de datos"
+    ],
+    "Infraestructura de Pagos Digitales": [
+        "Integración con plataformas de pago locales (tarjetas de crédito/débito, billeteras electrónicas)",
+        "Disponibilidad de APIs de pago",
+        "Seguridad en las transacciones financieras"
+    ],
+    "Regulaciones y Políticas Gubernamentales": [
+        "Políticas de fomento a la innovación y el emprendimiento tecnológico",
+        "Regulaciones sobre telecomunicaciones y acceso a internet",
+        "Leyes de protección de datos personales"
+    ]
+}
