@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import { Brain, Loader2, Search } from 'lucide-react';
-import axios from 'axios';
+'use client'
 
-import TopicGraph from './components/TopoGraph';
-import { GraphData } from './types/graph';
-import './index.css';
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { GraphData } from "../types/graph";
+import { Brain, Loader2, Search } from "lucide-react";
+import TopicGraph from "../components/TopoGraph";
 
-const App: React.FC = () => {
+export default function HomeScreen() {
   const [data, setData] = useState<GraphData>({ nodes: [], edges: [] });
   const [loading, setLoading] = useState(true);
   const [knowledges, setKnowledges] = useState<string[]>([]);
@@ -16,10 +16,10 @@ const App: React.FC = () => {
   useEffect(() => {
     // Fetch available knowledges
     axios.get('http://localhost:5000/api/knowledges')
-      .then((response) => {
+      .then((response: any) => {
         setKnowledges(response.data);
       })
-      .catch((error) => {
+      .catch((error: any) => {
         console.error('Error loading knowledges:', error);
       });
   }, []);
@@ -119,6 +119,4 @@ const App: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default App;
+}

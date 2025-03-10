@@ -1,5 +1,11 @@
+'use client'
+
 import React, { useEffect, useState } from 'react';
-import Plot from 'react-plotly.js';
+
+import dynamic from 'next/dynamic';
+
+const Plot = dynamic(()=> {return import ("react-plotly.js")}, {ssr: false})
+
 import { uniqBy } from 'lodash';
 import { Data, ScatterData, Layout } from 'plotly.js';
 import { Node, Edge, GraphData, NodeType } from '../types/graph';
@@ -26,7 +32,7 @@ const TopicGraph: React.FC<TopicGraphProps> = ({ data }) => {
 
   useEffect(() => {
     const processData = () => {
-      let nodes = uniqBy(data.nodes, 'id').map(node => ({ ...node, type: NodeType.Topic }));
+      let nodes = uniqBy(data.nodes, 'id').map((node: Node) => ({ ...node, type: NodeType.Topic }));
       let edges = data.edges;
 
       setGraphData({ nodes, edges });

@@ -42,7 +42,7 @@ export function HoverCard({ hoveredNode, connectedTopics }: HoverCardProps) {
       {/* Content */}
       <div style={{
         padding: '1rem',
-        maxHeight: '300px',
+        maxHeight: '800px',
         overflowY: 'auto'
       }}>
         {hoveredNode ? (
