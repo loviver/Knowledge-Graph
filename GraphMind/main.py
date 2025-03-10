@@ -1,60 +1,39 @@
+import os
+import json
+from flask import Flask, jsonify, send_from_directory
+from flask_cors import CORS
 import networkx as nx
+
 from .gemini import GeminiAI  # Se asume que este módulo ya existe en tu paquete
 from .explorer import ExploradorTematico
 from .gemini_client import GeminiClient
+from .explorer import ExploradorTematico
 
-def crear_grafico(G):
-    """
-    Crea y muestra un gráfico interactivo usando Plotly basado en el grafo de conexiones.
-    """
-    pos = nx.spring_layout(G)
-    edge_x = []
-    edge_y = []
-    for edge in G.edges():
-        x0, y0 = pos[edge[0]]
-        x1, y1 = pos[edge[1]]
-        edge_x.extend([x0, x1, None])
-        edge_y.extend([y0, y1, None])
-    
-    import plotly.graph_objects as go
-    edge_trace = go.Scatter(
-        x=edge_x, y=edge_y,
-        line=dict(width=0.5, color='#888'),
-        hoverinfo='none',
-        mode='lines'
-    )
-    
-    node_x = []
-    node_y = []
-    for node in G.nodes():
-        x, y = pos[node]
-        node_x.append(x)
-        node_y.append(y)
-    
-    node_trace = go.Scatter(
-        x=node_x, y=node_y,
-        mode='markers+text',
-        text=list(G.nodes()),
-        textposition='top center',
-        marker=dict(size=10, color='blue')
-    )
-    
-    fig = go.Figure(data=[edge_trace, node_trace],
-                    layout=go.Layout(
-                        title='Grafo de Conexiones',
-                        showlegend=False,
-                        hovermode='closest'
-                    ))
-    fig.show()
+app = Flask(__name__)
+CORS(app)
+
+@app.route('/api/knowledges', methods=['GET'])
+def get_knowledges():
+    folder_path = 'knowledges'
+    try:
+        json_files = [f for f in os.listdir(folder_path)]
+        return jsonify(json_files), 200
+    except FileNotFoundError:
+        return jsonify({"error": "La carpeta 'knowledges' no se encuentra"}), 404
+
+@app.route('/api/knowledges/<topic>', methods=['GET'])
+def get_knowledge_file(topic):
+    folder_path = 'knowledges'
+    file_path = os.path.join(folder_path, topic)
+
+    if os.path.exists(file_path):
+
+        explorador = ExploradorTematico(topic, modo='cargar')
+        data = explorador.ejecutar(profundidad=2)
+
+        return jsonify(data), 200
+    else:
+        return jsonify({"error": f"El archivo '{file_path}' no existe o no es un archivo JSON válido"}), 404
 
 if __name__ == "__main__":
-    idea_principal = "Segunda Guerra Mundial"
-    max_depth = 3
-    gemini_ai = GeminiAI()  # Inicialización de tu clase GeminiAI
-    G = nx.DiGraph()
-    
-    gemini_client = GeminiClient(gemini_ai)
-    explorador = ExploradorTematico(idea_principal, modo="cargar")  # o "investigar" según convenga
-    explorador.ejecutar(idea_principal, gemini_client, G, profundidad=max_depth)
-    
-    crear_grafico(G)
+    app.run(debug=True, host='0.0.0.0', port=5000)

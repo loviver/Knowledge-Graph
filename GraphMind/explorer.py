@@ -1,4 +1,20 @@
+import json
+import networkx as nx
+
+from .gemini import GeminiAI
 from .data_manager import cargar_conexiones, guardar_conexiones
+from .gemini_client import GeminiClient
+
+def crear_json_grafico(G):
+    """
+    Crea y retorna un diccionario con los nodos y las conexiones del grafo.
+    """
+    graph_data = {
+        'nodes': [{'id': node, 'label': node} for node in G.nodes()],
+        'edges': [{'source': edge[0], 'target': edge[1]} for edge in G.edges()]
+    }
+
+    return graph_data
 
 def explorar_tema(idea, gemini_client, idea_principal, profundidad_maxima=2, profundidad_actual=0, datos_cargados=None):
     """
@@ -35,6 +51,7 @@ def explorar_tema(idea, gemini_client, idea_principal, profundidad_maxima=2, pro
                 explorar_tema(sub_idea, gemini_client, idea_principal, profundidad_maxima, profundidad_actual + 1, datos_cargados)
     return conexiones
 
+
 def explorar_tema_cargado(tema, G, idea_principal, profundidad=2):
     """
     Explora y construye el grafo a partir de la información guardada en archivos JSON.
@@ -56,9 +73,18 @@ class ExploradorTematico:
         """
         self.modo = modo
         self.idea_principal = idea_principal
+        
+        self.gemini_ai = GeminiAI()
+        self.G = nx.DiGraph()
+        
+        self.gemini_client = GeminiClient(self.gemini_ai)
     
-    def ejecutar(self, idea, gemini_client, G, profundidad=2):
+    def ejecutar(self, profundidad=2):
         if self.modo == "investigar":
-            explorar_tema(idea, gemini_client, self.idea_principal, profundidad_maxima=profundidad)
+            explorar_tema(self.idea_principal, self.gemini_client, self.idea_principal, profundidad_maxima=profundidad)
+
+            return
         else:
-            explorar_tema_cargado(idea, G, self.idea_principal, profundidad)
+            explorar_tema_cargado(self.idea_principal, self.G, self.idea_principal, profundidad)
+
+            return crear_json_grafico(self.G)
