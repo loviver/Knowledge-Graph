@@ -26,3 +26,5 @@ build/
 # Archivos temporales
 *.log
 *.bak
+
+knowledges/*

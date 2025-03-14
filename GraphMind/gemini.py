@@ -34,7 +34,6 @@ class GeminiAI:
         context_to_use = custom_context if custom_context else self.context
         final_prompt = self.build_prompt(prompt, context_to_use)
 
-        # Estructura del cuerpo de la solicitud
         request_body = {
             "contents": [
                 {"parts": [{"text": final_prompt}]}
@@ -42,20 +41,15 @@ class GeminiAI:
         }
 
         try:
-            # Realiza la solicitud a la API
             response = requests.post(self.base_url, headers={"Content-Type": "application/json"}, json=request_body)
 
-            # Verifica si la respuesta es exitosa
             if response.status_code != 200:
                 raise Exception(f"Error en la API: {response.status_code} - {response.text}")
 
-            # Procesa la respuesta JSON
             data = response.json()
 
-            # Obtiene el texto de la respuesta
             res = data["candidates"][0]["content"]["parts"][0]["text"]
 
-            # Intenta extraer un JSON desde un bloque de código en el formato `json`
             match = self.extract_json_from_response(res)
 
             if match:
@@ -67,10 +61,8 @@ class GeminiAI:
     def extract_json_from_response(self, response: str) -> Any:
         """Extrae JSON de una respuesta en bloque de código"""
         try:
-            # Busca una cadena con formato de bloque JSON
             match = re.search(r'```json\n([\s\S]*?)\n```', response)
             if match:
-                # Intenta parsear el JSON extraído
                 return json.loads(match.group(1))
         except json.JSONDecodeError:
             pass
@@ -78,7 +70,7 @@ class GeminiAI:
 
 # Ejemplo de uso:
 if __name__ == "__main__":
-    api_key = "AIzaSyDWzzkTZqF73PdaxztjbdXcCo8sAEwkV7Y"  # Sustituir por tu clave de API
+    api_key = "AIzaSyDWzzkTZqF73PdaxztjbdXcCo8sAEwkV7Y"
     gemini = GeminiAI(api_key)
 
     gemini.set_context({"tema": "Segunda Guerra Mundial", "subtema": "Tratado de Versalles"})

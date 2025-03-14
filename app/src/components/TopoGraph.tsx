@@ -13,9 +13,10 @@ import { HoverCard } from './HoverCard';
 
 interface TopicGraphProps {
   data: GraphData;
+  selectedKnowledge: string | null;
 }
 
-const TopicGraph: React.FC<TopicGraphProps> = ({ data }) => {
+const TopicGraph: React.FC<TopicGraphProps> = ({ data, selectedKnowledge }) => {
   const [graphData, setGraphData] = useState<GraphData>({ nodes: [], edges: [] });
   const [nodePositions, setNodePositions] = useState<{ x: number; y: number }[]>([]);
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
@@ -32,13 +33,13 @@ const TopicGraph: React.FC<TopicGraphProps> = ({ data }) => {
 
   useEffect(() => {
     const processData = () => {
-      let nodes = uniqBy(data.nodes, 'id').map((node: Node) => ({ ...node, type: NodeType.Topic }));
+      let nodes = uniqBy(data.nodes, 'id').map((node: Node) => ({
+        ...node, 
+        type: node.label == selectedKnowledge ? NodeType.Topic : NodeType.Subtopic
+      }));
       let edges = data.edges;
-
       setGraphData({ nodes, edges });
-
-      // Generar posiciones una sola vez con más separación
-      setNodePositions(calculateNodePositions(nodes.length));
+      setNodePositions(calculateNodePositions(nodes, edges));
     };
 
     processData();
@@ -57,19 +58,63 @@ const TopicGraph: React.FC<TopicGraphProps> = ({ data }) => {
     }
   }, [hoveredNode]);
   
-  // setConnectedTopics(connectedLabels);
-  const calculateNodePositions = (nodeCount: number) => {
-    const positions = [];
-    const radius = 10; // Mayor separación
-    
-    for (let i = 0; i < nodeCount; i++) {
-      const angle = (i / nodeCount) * 2 * Math.PI;
-      positions.push({
-        x: radius * Math.cos(angle) + (Math.random() * 4 - 2), // Más dispersión
-        y: radius * Math.sin(angle) + (Math.random() * 4 - 2)
-      });
+  const hashCode = (str: string): number => {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = str.charCodeAt(i) + ((hash << 5) - hash);
     }
-
+    return hash;
+  };
+  
+  // Función pseudoaleatoria determinista basada en un seed
+  const pseudoRandom = (seed: number): number => {
+    const x = Math.sin(seed) * 10000;
+    return x - Math.floor(x);
+  };
+  
+  // setConnectedTopics(connectedLabels);
+  const calculateNodePositions = (nodes: Node[], edges: Edge[]) => {
+    const positions: any = [];
+    // Definir radios mínimos y máximos para la dispersión radial
+    const minRadius = 5;
+    const maxRadius = 15;
+  
+    // Calcular el grado de cada nodo (cantidad de conexiones)
+    const nodeDegree: Record<string, number> = {};
+    nodes.forEach(node => {
+      nodeDegree[node.id] = 0;
+    });
+    edges.forEach(edge => {
+      nodeDegree[edge.source] = (nodeDegree[edge.source] || 0) + 1;
+      nodeDegree[edge.target] = (nodeDegree[edge.target] || 0) + 1;
+    });
+  
+    const degreeValues = Object.values(nodeDegree);
+    const minDegree = Math.min(...degreeValues);
+    const maxDegree = Math.max(...degreeValues);
+  
+    nodes.forEach((node, i) => {
+      // Distribución circular: cada nodo recibe un ángulo proporcional a su índice
+      const angle = (i / nodes.length) * 2 * Math.PI;
+      let r: number;
+      if (maxDegree === minDegree) {
+        // Si todos tienen la misma cantidad de conexiones, usamos un radio base medio.
+        r = (minRadius + maxRadius) / 2;
+      } else {
+        // Nodos con mayor grado (más relevantes) se ubican más cerca del centro.
+        r = minRadius + ((maxDegree - nodeDegree[node.id]) / (maxDegree - minDegree)) * (maxRadius - minRadius);
+      }
+      // Offsets pseudoaleatorios (determinísticos) basados en el ID del nodo
+      const seed = hashCode(node.id);
+      // Se generan offsets en un rango de -1 a 1
+      const offsetX = pseudoRandom(seed) * 2 - 1;
+      const offsetY = pseudoRandom(seed + 1) * 2 - 1;
+  
+      const x = r * Math.cos(angle) + offsetX;
+      const y = r * Math.sin(angle) + offsetY;
+      positions.push({ x, y });
+    });
+  
     return positions;
   };
 
@@ -139,11 +184,12 @@ const TopicGraph: React.FC<TopicGraphProps> = ({ data }) => {
       mode: 'text+markers',
       marker: {
         size: calculateNodeSizes(),
-        color: graphData.nodes.map(node =>
-          hoveredNode === node.id || connectedLocalNodes.includes(node.id)
-            ? '#22C55E' // Resaltar nodos conectados en verde
-            : '#4F46E5'
-        ),
+        color: graphData.nodes.map(node => {
+          if (hoveredNode === node.id || connectedLocalNodes.includes(node.id)) {
+            return '#22C55E'; // Resaltar nodos conectados en verde
+          }
+          return node.type === NodeType.Topic ? '#E11D48' : '#4F46E5'; // Rojo para 'Topic', azul para el resto
+        }),
       },
       text: graphData.nodes.map(node => node.label),
       textposition: 'bottom center',

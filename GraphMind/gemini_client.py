@@ -19,6 +19,7 @@ class GeminiClient:
             "Conexión 2": ["Subtema 2.1", "Subtema 2.2"]
         }}
 
+        Si es relevante, incluye una fecha.
         No agregues texto adicional, solo devuelve el JSON válido.
         """
         try:
